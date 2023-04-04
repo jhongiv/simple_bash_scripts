@@ -1,6 +1,5 @@
-
 PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
-ofile=/home/jo0an/.log/fstrim/fstrim_watch.log
+ofile=${HOME}/.log/fstrim/fstrim_watch.log
 excluided1=`basename $0`		# per excloure el propi nom d'arxiu en la busqueda
 excluided2=grep				# exclou al proces grep de la busqueda
 excluided3=`basename $ofile`		# exclou al propi arxiu log
